@@ -1,0 +1,170 @@
+
+<!-- saved from url=(0014)about:internet -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CS 3410 RAM Guide</title>
+<link rel="stylesheet" href="./CS 3410 RAM Guide_files/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    if (!window.web3.currentProvider ||
+        !window.web3.currentProvider.isMetaMask) {
+      __insertDappDetected()
+    }
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script></head>
+<body>
+<div class="container">
+  <h1>CS 3410 RAM Guide</h1>
+
+  <hr>
+
+  <h3 id="ram">RAM.</h3>
+  <div class="row">
+    <div class="col-md-8">
+      <h4>Inputs and Outputs</h4>
+      <ul>
+        <li><code>A</code> is the word-address. Each line in the RAM component is a word (four bytes)
+        in memory, and has a unique address. As in the example figure to the right,
+        <code>A</code> = 0x00002 refers to slot 00002 in the RAM component, which contains a full
+        word. However, for a given address in RAM, if you want to retrieve a specific byte
+        or halfword in the address, you need to use the selector bits (described below). By
+        default, the component's address width is 20 bits (which means that, by default, it
+        can store 2^20 words = 4 * 2^20 bytes = 4MB).</li>
+
+        <li><code>D</code> contains the data to be stored in RAM. Depending on how <code>sel</code> is set,
+        only certain bytes within <code>D</code> will be written.</li>
+
+        <li><code>str</code> is the store bit. You can think of it as Write Enable. When str = 1,
+        RAM will write the value on <code>D</code> to address <code>A</code> according to the sel bits.</li>
+
+        <li><code>sel</code> is for the selector bits. As mentioned above, bits 0..7 of <code>D</code>
+        correspond to <code>sel</code> = 0001, bits 8..15 correspond to <code>sel</code> = 0010, bits
+        16..23 to 0100, and bits 24..31 to 1000. <code>sel</code> accepts other combinations like
+        1100 (to grab the upper halfword), 1111 (to grab the full word), or even something
+        wacky like 1010.</li>
+
+        <li><code>ld</code> is the load bit. Data Out <code>D</code> always sets floating values (X's) along the
+        wire unless the appropriate selector bits are set and ld = 1.</li>
+
+        <li><code>clr</code> clears all of RAM whenever it is 1.</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive" src="./CS 3410 RAM Guide_files/ramInputOutput.png" alt="ram inputs/output" height="242" width="377">
+    </div>
+  </div>
+
+  <h4>Using the Byte Selector</h4>
+  <div class="row">
+    <div class="col-md-8">
+      <p>
+        As previously mentioned, address <code>A</code> gets us to the word in memory. However, we need
+        to use <code>sel</code> to determine which bytes in the word we want to write to or read from.
+        The Byte selector is 4 bits, and you can think of each bit as a read/write enable for each
+        of the four bytes in the word.
+        <br>
+        Specifically, bit 0 of <code>sel</code> enables the first byte from the right in the RAM component.
+        When writing to RAM, bits 0 to 7 of DataIn are written to this byte, and when reading from RAM,
+        the byte's value gets read out to bits 0 to 7 of DataOut. Bit 1 of <code>sel</code> enables the
+        second byte from the right, and corresponds with bits 8 to 15 of DataIn and DataOut. Bit 2 enables
+        the third byte from the right and corresponds with bits 16 to 23, and bit 3 enables the fourth byte,
+        and corresponds with bits 24 to 31.
+      </p>
+    </div>
+  </div>
+
+  <h4>Storing</h4>
+  <div class="row">
+    <div class="col-md-8">
+      <p>
+        Writing into the RAM component requires that the <code>str</code> bit is set to 1.
+        <br>
+        In the example to the right, DataIn is set so that a hex value 0xf1 is in the bottom line (bits 7..0),
+        0xf2 is in the second line (bits 15..8), 0xf3 is in the third line (bits 23..16), and 0xf4 is
+        in the top line (bits 24..31). The gif demonstrates how to write different bytes or
+        halfwords to the RAM.
+        <br>
+        When you want to write a byte to a location in RAM, pay attention that you place the
+        byte-values in DataIn correctly with selector bits. In the example above, if you wanted to
+        write 0xf1 to left-most byte, you would need to put 0xf1 in bits 24..31 in DataIn and
+        set <code>sel</code> = 1000.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive" src="./CS 3410 RAM Guide_files/selStoreSmall.gif" alt="selector store" height="274" width="434">
+    </div>
+  </div>
+
+  <h4>Loading</h4>
+  <div class="row">
+    <div class="col-md-8">
+      <p>
+        Reading from the RAM component requires that the <code>ld</code> bit is set to 1.
+        <br>
+        Loading is a bit more straightforward. Just be sure that when you are reading a byte from memory
+        that you retrieve the byte from the right bits on DataOut. For example, if you were only selecting
+        with <code>sel</code> = 0100, then you'd have to make sure that, when you're splitting DataOut, that you
+        isolate the correct byte (bits 23..16).
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive" src="./CS 3410 RAM Guide_files/selLoadSmall.gif" alt="selector load" height="274" width="434">
+    </div>
+  </div>
+
+  <h4>A Note on Implementing Byte Addressed Memory</h4>
+  <div class="row">
+    <div class="col-md-8">
+      <p>
+        All the addresses that we deal with in the instruction set are expressed in terms of <i>byte addresses</i>.
+        This means that address 0x0000 refers to the first byte in memory, and 0x0001 the second byte, and so on.
+        Since every word has four bytes (in other words, since every four bytes is a new word), then 0x0000 still refers to the first word,
+        but the second word is at address 0x0004.
+        <br>
+        It is key that you understand that the RAM is word addressed. It is an error to pass the raw byte-address into the A input.
+      </p>
+    </div>
+  </div>
+  <div style="height: 100px;"></div>
+</div>
+
+
+</body></html>

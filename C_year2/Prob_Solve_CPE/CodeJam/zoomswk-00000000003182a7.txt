@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <string>
+#include <iostream>
+#include <set>
+#include <map>
+using namespace std;
+
+char M[1005];
+
+int abs(int x){
+    if(x < 0) x = -x;
+    return x;
+}
+
+int main(){
+    int TEST_CASES;
+    scanf("%d", &TEST_CASES);
+    for(int tc=1; tc<=TEST_CASES; tc++){
+        int X, Y;
+        scanf("%d%d", &X, &Y);
+        scanf("%s", M);
+        bool done = false;
+        printf("Case #%d: ", tc);
+        for(int i=0; M[i]; i++){
+            if(M[i] == 'N') Y++;
+            else if(M[i] == 'E') X++;
+            else if(M[i] == 'S') Y--;
+            else X--;
+            if(abs(X)+abs(Y) <= i+1){
+                printf("%d\n", i+1);
+                done = true;
+                break;
+            }
+        }
+        if(!done) printf("IMPOSSIBLE\n");
+    }
+    return 0;
+}

@@ -1,0 +1,12 @@
+Will,physic,78,34,23,96
+Will,math,45,67,77,80
+Will,compro,34,58,80,92
+Tom,physic,65,43,32,67
+Tom,math,53,81,73,67
+Tom,compro,78,88,82,95
+Jake,physic,45,56,67,78
+Jake,math,51,23,70,65
+Jake,compro,70,82,91,67
+Sue,physic,27,38,49,76
+Sue,math,45,54,75,67
+Sue,compro,71,34,56,68

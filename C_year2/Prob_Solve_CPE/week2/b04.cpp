@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+string s;
+int main(int argc, char const *argv[])
+{
+
+  cin >> s ;
+  reverse(s.begin(), s.end());
+  cout << s ;
+  return 0;
+}

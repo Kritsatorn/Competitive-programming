@@ -1,0 +1,213 @@
+Aalborg,Denmark,yes,171,yes,57.03,9.92,7.52
+Aberdeen,United Kingdom,yes,1344,yes,57.17,-2.08,8.1
+Abisko,Sweden,yes,2104,yes,63.35,18.83,0.2
+Adana,Turkey,yes,5137,no,36.99,35.32,18.67
+Albacete,Spain,yes,3479,yes,39,-1.87,12.62
+Algeciras,Spain,yes,3479,yes,36.13,-5.47,17.38
+Amiens,France,yes,4810,yes,49.9,2.3,10.17
+Amsterdam,Netherlands,yes,321,yes,52.35,4.92,8.93
+Ancona,Italy,yes,4810,yes,43.6,13.5,13.52
+Andorra,Andorra,no,2942,no,42.5,1.52,9.6
+Angers,France,yes,4810,yes,47.48,-0.53,10.98
+Ankara,Turkey,yes,5137,no,39.93,32.86,9.86
+Antalya,Turkey,yes,5137,no,36.89,30.7,11.88
+Arad,Romania,yes,2544,yes,46.17,21.32,9.32
+Athens,Greece,yes,2919,yes,37.98,23.73,17.41
+Augsburg,Germany,yes,2962,yes,48.35,10.9,4.54
+Bacau,Romania,yes,2544,yes,46.58,26.92,7.51
+Badajoz,Spain,yes,3479,yes,38.88,-6.97,15.61
+Baia Mare,Romania,yes,2544,yes,47.66,23.58,8.87
+Balti,Moldova,no,430,no,47.76,27.91,8.23
+Barcelona,Spain,yes,3479,yes,41.38,2.18,15.78
+Bari,Italy,yes,4810,yes,41.11,16.87,15.15
+Basel,Switzerland,no,4634,no,47.58,7.59,6.68
+Batman,Turkey,yes,5137,no,37.89,41.14,14.16
+Belfast,United Kingdom,yes,1344,yes,54.6,-5.96,8.48
+Belgrade,Serbia,no,2169,no,44.82,20.47,9.85
+Bergamo,Italy,yes,4810,yes,45.7,9.67,9.12
+Bergen,Norway,yes,2469,no,60.39,5.32,1.75
+Berlin,Germany,yes,2962,yes,52.52,13.4,8.72
+Bialystok,Poland,yes,2499,yes,53.15,23.17,6.07
+Bielefeld,Germany,yes,2962,yes,52.03,8.53,8.78
+Bila Tserkva,Ukraine,yes,2061,no,49.77,30.13,6.98
+Bilbao,Spain,yes,3479,yes,43.25,-2.93,11.41
+Birmingham,United Kingdom,yes,1344,yes,52.47,-1.92,8.81
+Blackpool,United Kingdom,yes,1344,yes,53.83,-3.05,9.15
+Bodo,Norway,yes,2469,no,67.25,14.4,4.5
+Bologna,Italy,yes,4810,yes,44.5,11.34,11.69
+Bonn,Germany,yes,2962,yes,50.72,7.08,8.63
+Bordeaux,France,yes,4810,yes,44.85,-0.6,11.87
+Botosani,Romania,yes,2544,yes,47.75,26.66,8.23
+Bournemouth,United Kingdom,yes,1344,yes,50.73,-1.9,9.97
+Bradford,United Kingdom,yes,1344,yes,53.8,-1.75,8.39
+Braga,Portugal,yes,1993,yes,41.55,-8.42,13.42
+Braila,Romania,yes,2544,yes,45.29,27.97,9.78
+Bratislava,Slovakia,no,2655,yes,48.15,17.12,9.65
+Bremen,Germany,yes,2962,yes,53.08,8.8,8.14
+Brest,Belarus,no,345,no,52.1,23.7,6.73
+Brest,France,yes,4810,yes,48.39,-4.5,11.02
+Brno,Czech Republic,no,1603,yes,49.2,16.61,7.86
+Brugge,Belgium,yes,694,yes,51.22,3.23,9.65
+Bucharest,Romania,yes,2544,yes,44.43,26.1,10.59
+Budapest,Hungary,no,1014,yes,47.5,19.08,9.55
+Burgas,Bulgaria,yes,2925,yes,42.51,27.47,11.93
+Burgos,Spain,yes,3479,yes,42.35,-3.68,10.45
+Bursa,Turkey,yes,5137,no,40.2,29.07,11.16
+Bydgoszcz,Poland,yes,2499,yes,53.12,18.01,7.14
+Bytom,Poland,yes,2499,yes,50.35,18.91,7.66
+Caen,France,yes,4810,yes,49.18,-0.35,9.96
+Cambridge,United Kingdom,yes,1344,yes,52.2,0.12,9.25
+Cartagena,Spain,yes,3479,yes,37.6,-0.98,17.32
+Catania,Italy,yes,4810,yes,37.5,15.08,15.04
+Chemnitz,Germany,yes,2962,yes,50.83,12.92,8.05
+Cherkasy,Ukraine,yes,2061,no,49.43,32.07,7.19
+Chernihiv,Ukraine,yes,2061,no,51.5,31.3,5.92
+Chernivtsi,Ukraine,yes,2061,no,48.31,25.92,7.06
+Chisinau,Moldova,no,430,no,47.01,28.86,8.6
+Constanta,Romania,yes,2544,yes,44.2,28.61,11.24
+Cork,Ireland,yes,1041,yes,51.9,-8.5,9.41
+Cosenza,Italy,yes,4810,yes,39.27,16.29,16.6
+Craiova,Romania,yes,2544,yes,44.33,23.83,10.51
+Daugavpils,Latvia,yes,311,yes,55.88,26.51,5.38
+Debrecen,Hungary,no,1014,yes,47.53,21.63,8.87
+Denizli,Turkey,yes,5137,no,37.77,29.08,15.02
+Dijon,France,yes,4810,yes,47.33,5.03,8.69
+Dublin,Ireland,yes,1041,yes,53.33,-6.25,8.49
+Dundee,United Kingdom,yes,1344,yes,56.47,-3,6.4
+Edinburgh,United Kingdom,yes,1344,yes,55.95,-3.22,7.43
+Edirne,Turkey,yes,5137,no,41.67,26.57,10.9
+Elbasan,Albania,yes,2764,no,41.12,20.08,15.18
+Elblag,Poland,yes,2499,yes,54.19,19.4,6.68
+Erfurt,Germany,yes,2962,yes,50.97,11.03,7.4
+Erzincan,Turkey,yes,5137,no,39.75,39.49,8.67
+Erzurum,Turkey,yes,5137,no,39.92,41.29,5.17
+Eskisehir,Turkey,yes,5137,no,39.79,30.53,11.11
+Exeter,United Kingdom,yes,1344,yes,50.7,-3.53,10.14
+Foggia,Italy,yes,4810,yes,41.46,15.56,13.83
+Frankfurt,Germany,yes,2962,yes,50.1,8.68,7.98
+Freiburg,Germany,yes,2962,yes,48,7.87,6.68
+Galway,Ireland,yes,1041,yes,53.27,-9.05,10
+Gaziantep,Turkey,yes,5137,no,37.07,37.38,13.46
+Geneva,Switzerland,no,4634,no,46.21,6.14,8.4
+Genoa,Italy,yes,4810,yes,44.41,8.93,12.94
+Glasgow,United Kingdom,yes,1344,yes,55.87,-4.25,8.6
+Göteborg,Sweden,yes,2104,yes,57.75,12,5.76
+Granada,Spain,yes,3479,yes,37.16,-3.59,16.33
+Graz,Austria,no,3798,yes,47.08,15.41,6.91
+Grenoble,France,yes,4810,yes,45.18,5.72,8.4
+Groningen,Netherlands,yes,321,yes,53.22,6.58,8.71
+Gyor,Hungary,no,1014,yes,47.7,17.63,9.65
+Heidelberg,Germany,yes,2962,yes,49.42,8.7,8.47
+Helsinki,Finland,yes,1324,yes,60.18,24.93,4.19
+Horlivka,Ukraine,yes,2061,no,48.3,38.05,7.12
+Hrodna,Belarus,no,345,no,53.68,23.83,6.07
+Huelva,Spain,yes,3479,yes,37.25,-6.93,17.09
+Ingolstadt,Germany,yes,2962,yes,48.77,11.45,7.57
+Innsbruck,Austria,no,3798,yes,47.28,11.41,4.54
+Inverness,United Kingdom,yes,1344,yes,57.47,-4.23,8
+Istanbul,Turkey,yes,5137,no,41.1,29.01,13.2
+Kalamata,Greece,yes,2919,yes,37.04,22.11,17.3
+Karaman,Turkey,yes,5137,no,37.18,33.22,10.41
+Karlsruhe,Germany,yes,2962,yes,49,8.4,8.88
+Kaunas,Lithuania,yes,294,yes,54.95,23.88,6.05
+Kayseri,Turkey,yes,5137,no,38.73,35.49,8.89
+Kherson,Ukraine,yes,2061,no,46.63,32.6,8.64
+Kielce,Poland,yes,2499,yes,50.89,20.66,7.29
+Kiev,Ukraine,yes,2061,no,50.43,30.52,6.88
+Kiruna,Sweden,yes,2104,yes,67.85,20.22,-2.2
+Klaipeda,Lithuania,yes,294,yes,55.72,21.12,7
+Kosice,Slovakia,no,2655,yes,48.73,21.25,7.31
+Koszalin,Poland,yes,2499,yes,54.2,16.18,7.73
+Kremenchuk,Ukraine,yes,2061,no,49.08,33.43,7.43
+Kryvyy Rih,Ukraine,yes,2061,no,47.93,33.34,8.61
+Le Mans,France,yes,4810,yes,48,0.1,10.59
+Lille,France,yes,4810,yes,50.65,3.08,9.65
+Limoges,France,yes,4810,yes,45.83,1.25,10.32
+Linz,Austria,no,3798,yes,48.32,14.29,6.79
+Lisbon,Portugal,yes,1993,yes,38.72,-9.14,15.52
+Ljubljana,Slovenia,yes,2864,yes,46.06,14.51,9.27
+Lvov,Ukraine,yes,2061,no,49.83,24.03,7.04
+Maastricht,Netherlands,yes,321,yes,50.85,5.68,8.63
+Madrid,Spain,yes,3479,yes,40.4,-3.68,11.19
+Magdeburg,Germany,yes,2962,yes,52.13,11.62,8.26
+Makiyivka,Ukraine,yes,2061,no,48.03,37.97,8.7
+Malatya,Turkey,yes,5137,no,38.37,38.3,14.13
+Malmö,Sweden,yes,2104,yes,55.58,13.03,7.33
+Manisa,Turkey,yes,5137,no,38.63,27.44,15.1
+Marbella,Spain,yes,3479,yes,36.52,-4.88,17.19
+Marseille,France,yes,4810,yes,43.29,5.38,14.98
+Mazyr,Belarus,no,345,no,52.05,29.27,6.25
+Messina,Italy,yes,4810,yes,38.2,15.55,16.54
+Metz,France,yes,4810,yes,49.12,6.18,8.88
+Milan,Italy,yes,4810,yes,45.47,9.21,6.65
+Minsk,Belarus,no,345,no,53.9,27.57,5.28
+Montpellier,France,yes,4810,yes,43.61,3.87,11.11
+Mulhouse,France,yes,4810,yes,47.75,7.35,6.68
+Murcia,Spain,yes,3479,yes,37.98,-1.13,15
+Nice,France,yes,4810,yes,43.72,7.27,8.82
+Nis,Serbia,no,2169,no,43.33,21.9,9.36
+Novi Sad,Serbia,no,2169,no,45.25,19.85,10.34
+Odense,Denmark,yes,171,yes,55.4,10.38,7.73
+Ordu,Turkey,yes,5137,no,41,37.87,11.92
+Orsha,Belarus,no,345,no,54.52,30.42,4.93
+Oslo,Norway,yes,2469,no,59.92,10.75,2.32
+Ostrava,Czech Republic,no,1603,yes,49.83,18.25,7.66
+Oulu,Finland,yes,1324,yes,65,25.47,1.45
+Oviedo,Spain,yes,3479,yes,43.35,-5.83,10.85
+Palermo,Italy,yes,4810,yes,38.13,13.35,17.9
+Patras,Greece,yes,2919,yes,38.23,21.73,16.9
+Perpignan,France,yes,4810,yes,42.7,2.9,10.95
+Perugia,Italy,yes,4810,yes,43.11,12.39,11.7
+Pescara,Italy,yes,4810,yes,42.46,14.22,15.13
+Pinsk,Belarus,no,345,no,52.13,26.09,6.42
+Pleven,Bulgaria,yes,2925,yes,43.42,24.61,10.51
+Plovdiv,Bulgaria,yes,2925,yes,42.15,24.75,8.27
+Podgorica,Montenegro,yes,2534,no,42.47,19.27,9.99
+Poznan,Poland,yes,2499,yes,52.41,16.9,8.31
+Prague,Czech Republic,no,1603,yes,50.08,14.47,8.05
+Reims,France,yes,4810,yes,49.25,4.03,9.4
+Riga,Latvia,yes,311,yes,56.95,24.1,5.16
+Rijeka,Croatia,yes,1831,yes,45.33,14.45,9.27
+Rivne,Ukraine,yes,2061,no,50.62,26.25,6.76
+Rome,Italy,yes,4810,yes,41.9,12.48,15.1
+Rostock,Germany,yes,2962,yes,54.07,12.15,8.07
+Ruse,Bulgaria,yes,2925,yes,43.85,25.97,10.59
+Salamanca,Spain,yes,3479,yes,40.97,-5.67,11.63
+Salzburg,Austria,no,3798,yes,47.81,13.04,4.62
+Samsun,Turkey,yes,5137,no,41.28,36.34,12.05
+Santander,Spain,yes,3479,yes,43.38,-3.8,13.4
+Sarajevo,Bosnia and Herzegovina,no,2386,no,43.85,13.38,9.6
+Sibiu,Romania,yes,2544,yes,45.8,24.14,6.97
+Siirt,Turkey,yes,5137,no,37.94,41.93,12.48
+Sivas,Turkey,yes,5137,no,39.75,37.03,8.05
+Skopje,Macedonia,no,2764,no,42,21.43,9.36
+Split,Croatia,yes,1831,yes,43.52,16.47,12.46
+Stara Zagora,Bulgaria,yes,2925,yes,42.42,25.62,10.9
+Stavanger,Norway,yes,2469,no,58.97,5.68,5.53
+Stockholm,Sweden,yes,2104,yes,59.35,18.1,6.26
+Sumy,Ukraine,yes,2061,no,50.92,34.78,6.28
+Swansea,United Kingdom,yes,1344,yes,51.63,-3.95,9.73
+Szeged,Hungary,no,1014,yes,46.25,20.15,10.34
+Tallinn,Estonia,yes,318,yes,59.43,24.73,4.82
+Tampere,Finland,yes,1324,yes,61.5,23.75,3.59
+Tarsus,Turkey,yes,5137,no,36.92,34.88,11.21
+Tartu,Estonia,yes,318,yes,58.38,26.71,4.36
+Tekirdag,Turkey,yes,5137,no,40.99,27.51,13.02
+Toulouse,France,yes,4810,yes,43.62,1.45,10.25
+Trabzon,Turkey,yes,5137,no,40.98,39.72,10.28
+Trieste,Italy,yes,4810,yes,45.65,13.8,11.21
+Trikala,Greece,yes,2919,yes,39.56,21.77,16
+Trondheim,Norway,yes,2469,no,63.42,10.42,4.53
+Turku,Finland,yes,1324,yes,60.45,22.25,4.72
+Uppsala,Sweden,yes,2104,yes,59.86,17.64,4.17
+Valencia,Spain,yes,3479,yes,39.49,-0.4,16.02
+Vienna,Austria,no,3798,yes,48.2,16.37,7.86
+Vigo,Spain,yes,3479,yes,42.22,-8.73,12.85
+Vilnius,Lithuania,yes,294,yes,54.68,25.32,5.38
+Warsaw,Poland,yes,2499,yes,52.25,21,7.2
+Wroclaw,Poland,yes,2499,yes,51.11,17.03,7.17
+Yevpatoriya,Ukraine,yes,2061,no,45.2,33.36,10.02
+Zaragoza,Spain,yes,3479,yes,41.65,-0.89,14.17
+Zhytomyr,Ukraine,yes,2061,no,50.25,28.66,6.67
+Zonguldak,Turkey,yes,5137,no,41.43,31.78,10.64
+Zurich,Switzerland,no,4634,no,47.38,8.56,6.68
